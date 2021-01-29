@@ -1,0 +1,20 @@
+---
+layout: page
+title: Muffins
+flavours: []
+---
+<h1>Cities</h1>
+
+
+<div class="cupcakes">
+  {% for city in site.cities %}
+  <p><a href="{{ city.url }}">{{city.city}}</a></p>
+    <!-- <div class="cupcake">
+      <div class="image">
+        <img src="{{ service.image_path }}" alt="{{ service.type }}" />
+      </div>
+      <h2>{{ cupcake.type }}</h2>
+      <p><a href="{{ service.url }}">{{ service.description }}</a></p>
+    </div> -->
+  {% endfor %}
+</div>

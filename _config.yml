@@ -1,0 +1,5 @@
+collections:
+  services:
+    output: true
+  cities:
+    output: true
